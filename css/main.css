@@ -160,3 +160,57 @@ figure figcaption p, h2, span, div {
 .item3:hover figcaption p {
 	transform: skew(0deg)
 }
+
+.item4 {
+	background: #000;
+}
+
+.item4 figcaption h2 {
+    margin-top: 15%;
+    margin-left: 15%;
+    transform: scale(1.2, 1.2);
+    opacity: 0;
+}
+
+.item4 figcaption p {
+    margin-top: 5px;
+    margin-left: 15%;
+    transform: scale(1.2, 1.2);
+    opacity: 0
+}
+
+.item4 figcaption {
+	width: 100%;
+	height: 100%;
+}
+
+.item4 figcaption div {
+	border: 2px solid #fff;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	transform: scale(1.2, 1.2);
+	opacity: 0
+}
+
+.item4:hover figcaption div {
+	transform: scale(1,1);
+	opacity: 1;
+}
+
+.item4:hover img {
+	opacity: 0.5;
+	transform: scale(1.2, 1.2);
+}
+
+.item4:hover figcaption h2 {
+	transform: scale(1,1);
+	opacity: 1;
+}
+
+.item4:hover figcaption p {
+	transform: scale(1,1);
+	opacity: 1;
+}
