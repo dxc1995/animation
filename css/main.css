@@ -141,12 +141,13 @@ figure figcaption p, h2, span, div {
 }
 
 .item3 figcaption h2 {
-	transform: skew(90deg);
+	transform: skew(80deg);
+	opacity: 0;
 }
 
 .item3 figcaption p {
-	transform: skew(90deg);
-	transition-delay: 0.1s; 
+	transform: skew(80deg);
+	opacity: 0;
 }
 
 .item3:hover img {
@@ -155,10 +156,12 @@ figure figcaption p, h2, span, div {
 
 .item3:hover figcaption h2 {
 	transform: skew(0deg);
+	opacity: 1;
 }
 
 .item3:hover figcaption p {
-	transform: skew(0deg)
+	transform: skew(0deg);
+	opacity: 1;
 }
 
 .item4 {
