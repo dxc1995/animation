@@ -88,3 +88,75 @@ figure figcaption p, h2, span, div {
 	opacity: 0.5
 }
 
+.item2 {
+	background: #030;
+}
+
+.item2 figcaption {
+	width: 100%;
+	height: 100%;
+}
+
+.item2 figcaption h2{
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.item2 figcaption p {
+	margin-left: 15%;
+	transform: translate(0px, 50px);
+	opacity: 0;
+}
+
+.item2 figcaption div {
+	border: 2px solid #FFF;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	transform: translate(0px, -350px) rotate(0deg);
+}
+
+.item2:hover figcaption div {
+	transform: translate(0px, 0px) rotate(360deg);
+}
+
+.item2:hover img {
+	opacity: 0.5;
+}
+
+.item2:hover figcaption p {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+.item3 {
+	background: #000;
+}
+
+.item3 figcaption {
+	top: 30%;
+	left: 15%;
+}
+
+.item3 figcaption h2 {
+	transform: skew(90deg);
+}
+
+.item3 figcaption p {
+	transform: skew(90deg);
+	transition-delay: 0.1s; 
+}
+
+.item3:hover img {
+	opacity: 0.5
+}
+
+.item3:hover figcaption h2 {
+	transform: skew(0deg);
+}
+
+.item3:hover figcaption p {
+	transform: skew(0deg)
+}
